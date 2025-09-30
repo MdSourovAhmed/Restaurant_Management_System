@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Gourmet Food & Wine Tasting",
+    "description": "Sample exquisite dishes and fine wines from local chefs.",
+    "date": "2025-11-10T19:00:00Z",
+    "location": "Napa Valley, CA",
+    "capacity": 120,
+    "registeredUsers": []
+  },
+  {
+    "title": "Tech Conference 2025",
+    "description": "Annual conference showcasing the latest in AI and cloud computing.",
+    "date": "2025-10-15T09:00:00Z",
+    "location": "San Francisco, CA",
+    "capacity": 500,
+    "registeredUsers": []
+  },
+  {
+    "title": "Summer Beats Festival",
+    "description": "A weekend of live music performances from top artists.",
+    "date": "2025-11-01T12:00:00Z",
+    "location": "Austin, TX",
+    "capacity": 2000,
+    "registeredUsers": []
+  },
+  {
+    "title": "Full-Stack Coding Bootcamp",
+    "description": "Hands-on workshop for learning React and Node.js.",
+    "date": "2025-09-20T10:00:00Z",
+    "location": "Online",
+    "capacity": 100,
+    "registeredUsers": []
+  },
+  {
+    "title": "Run for a Cause 5K",
+    "description": "Join our annual charity run to support local communities.",
+    "date": "2025-10-05T08:00:00Z",
+    "location": "Chicago, IL",
+    "capacity": 300,
+    "registeredUsers": []
+  },
+  {
+    "title": "Modern Art Showcase",
+    "description": "Explore contemporary art from emerging artists.",
+    "date": "2025-10-25T11:00:00Z",
+    "location": "New York, NY",
+    "capacity": 150,
+    "registeredUsers": []
+  },
+  {
+    "title": "Startup Pitch Night",
+    "description": "Entrepreneurs pitch their ideas to investors and mentors.",
+    "date": "2025-09-30T18:00:00Z",
+    "location": "Boston, MA",
+    "capacity": 80,
+    "registeredUsers": []
+  }
+]
