@@ -149,37 +149,6 @@ const getAllRegistrations = async (req, res) => {
   }
 };
 
-// const getRegistrationsByEvent = async (req, res) => {
-//   console.log(req.user);
-//   try {
-//     const events = await Event.find({}).lean();
-//     const registrations = await Registration.find({})
-//       .populate("user", "name email")
-//       .populate("event", "title date location")
-//       .lean();
-
-//     // remove those with no event
-//     const validRegistrations = registrations.filter((reg) => reg.event);
-//     // const groupedByEvent = { events: events, registrations: registrations };
-//     // res.json(groupedByEvent);
-//     // // const groupedByEvent = events.map((event) => ({
-//     // //   event,
-//     // //   registrations: registrations.filter(
-//     // //     (reg) => reg.event._id.toString() === event._id.toString()
-//     // //   ),
-//     // // }));
-//     const groupedByEvent = events.map((event) => ({
-//       ...event,
-//       registrations: validRegistrations.filter(
-//         (reg) => reg.event._id.toString() === event._id.toString()
-//       ),
-//     }));
-//     res.json(groupedByEvent);
-//   } catch (err) {
-//     res.status(500).json({ message: err.message });
-//   }
-// };
-
 
 const getRegistrationsByEvent = async (req, res) => {
   try {
