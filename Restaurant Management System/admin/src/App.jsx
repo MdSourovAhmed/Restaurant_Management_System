@@ -9,14 +9,6 @@ import Menu from "./pages/MenuManager";
 import Tables from "./pages/TableManager";
 import Orders from "./pages/OrderManager";
 
-// import Registrations from "./pages/Registrations";
-// import Events from "./pages/Events";
-// import EventManagement from "./pages/EventManagement"; // New
-// import UserManagement from "./pages/UserManagement"; // New
-// import RegistrationManagement from "./pages/RegistrationManagement"; // New
-
-// import EventList from "./components/EventList";
-
 function App() {
   return (
     <BrowserRouter>
