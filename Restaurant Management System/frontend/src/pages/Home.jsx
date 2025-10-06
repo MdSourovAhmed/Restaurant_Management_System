@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Menu from "./Menu";
 import Tables from "./Tables";
-import Orders from "./Orders";
+// import Orders from "./Orders";
 import homeImage from "../assets/home.jpg";
 import HeroSection from "./HeroSection";
 import OrderForm from "./OrderForm";

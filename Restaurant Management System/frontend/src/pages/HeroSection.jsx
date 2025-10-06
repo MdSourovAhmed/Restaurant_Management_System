@@ -31,7 +31,7 @@ const HeroSection = () => {
           </button> */}
           <Link
             to={user ? "/orders" : "/login"}
-            className="bg-teal-500 text-white p-2 w-40 rounded-lg hover:bg-teal-600 cursor-pointer"
+            className="bg-teal-500 text-white px-2 py-2 w-25 rounded-lg hover:bg-teal-600 cursor-pointer"
           >
             Order Now
           </Link>
