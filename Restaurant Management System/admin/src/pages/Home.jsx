@@ -17,7 +17,7 @@ function Home() {
       ) : (
         <>
           <h1 className="text-3xl font-bold text-teal-500 m-10">
-            Welcome to the Event Management System
+            Welcome to the Restaurant Management System
           </h1>
         </>
       )}
@@ -37,7 +37,7 @@ function Home() {
         >
           <h3 className="text-xl font-semibold text-teal-500">Manage Menu</h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Save and organize your favorite SURAHs.
+            Save and organize your favorite Menu Items.
           </p>
         </Link>
         <Link
@@ -48,7 +48,7 @@ function Home() {
             Manage Tables
           </h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Monitor your memorization journey.
+            Monitor your Tables.
           </p>
         </Link>
         <Link
@@ -59,7 +59,7 @@ function Home() {
             Manage Order
           </h3>
           <p className="text-gray-600 dark:text-gray-300">
-            Monitor your memorization journey.
+            Monitor and update Order status.
           </p>
         </Link>
       </div>
