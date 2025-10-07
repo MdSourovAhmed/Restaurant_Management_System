@@ -1,36 +1,3 @@
-// const InventoryItem = require('../models/InventoryItem');
-
-// exports.getInventory = async (req, res) => {
-//   try {
-//     const items = await InventoryItem.find();
-//     res.json(items);
-//   } catch (err) {
-//     res.status(500).json({ message: err.message });
-//   }
-// };
-
-// exports.updateInventory = async (req, res) => {
-//   try {
-//     const item = await InventoryItem.findById(req.params.id);
-//     if (!item) return res.status(404).json({ message: 'Item not found' });
-
-//     item.quantity = req.body.quantity;
-//     await item.save();
-//     res.json(item);
-//   } catch (err) {
-//     res.status(400).json({ message: err.message });
-//   }
-// };
-
-// exports.getLowStock = async (req, res) => {
-//   try {
-//     const items = await InventoryItem.find({ quantity: { $lte: 10 } });
-//     res.json(items);
-//   } catch (err) {
-//     res.status(500).json({ message: err.message });
-//   }
-// };
-
 const InventoryItem = require("../models/InventoryItem");
 
 exports.getInventory = async (req, res) => {
